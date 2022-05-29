@@ -1,55 +1,65 @@
  body {
      font-family: monospace, sans-serif;
+     background-color: whitesmoke;
+     font-size: 1em;
  }
 
  nav ul {
-     box-sizing: border-box;
-     text-align: center;
+     text-align: right;
  }
 
  nav ul li {
      display: inline-block;
      list-style-type: none;
      padding: 10px;
-     text-align: center;
      font-size: 1.5em;
  }
 
  nav ul li a {
      text-decoration: none;
  }
-
- header {
-     display: flex;
-     flex-flow: row wrap;
-     }
-
- header h1 {
-     flex: 1 200px;
-     font-size: 50px;
+div h2{
+    font-size: 1.5rem;
+}
+ div h2 {
+     font-weight: bold;
+     color: brown;
  }
- header div:nth-of-type(2){
-     margin: 0 auto;
+ div h3{
+     font-style: italic;
+     color: blue;
  }
- 
- #domestication div:nth-of-type(1){
+
+ #domestication div:nth-of-type(1) {
      text-align: center;
  }
- footer{
+
+ footer {
+     color: black;
      display: flex;
      flex-flow: row wrap;
      align-items: center;
+     background-color: antiquewhite;
+     padding: 10px;
+     margin: 20px;
  }
- footer .moreinformation
- {
+
+ footer div {
      flex: 1 100px;
      justify-content: space-around;
+     text-align: justify;
  }
- footer .contact{
-     flex: 1 100px;
-     justify-content: space-around;
+
+ footer div.moreInformation {
+     display: inline-grid;
  }
- footer .author{
-     flex: 1 100px;
-     justify-content: space-around;
+
+ footer .author {
+     list-style: none;
+ }
+
+ footer a:link {
+     color: inherit;
+     text-decoration: none;
+
  }
