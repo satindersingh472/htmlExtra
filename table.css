@@ -1,0 +1,57 @@
+@font-face{
+    font-family: rock salt;
+    src: url("rock-salt-v18-latin/rock-salt-v18-latin-regular.woff2"),
+         url("rock-salt-v18-latin/rock-salt-v18-latin-regular.woff"),
+         url("rock-salt-v18-latin/rock-salt-v18-latin-regular.ttf");
+        
+
+}
+caption{
+    font-family: "rock salt";
+    caption-side: bottom;
+    text-align: center;
+    font-size: 20px; 
+    letter-spacing: 2px;
+    padding: 10px;
+}
+body{
+    font-family: "rock Salt";
+}
+thead, tfoot{
+    font-family: "rock salt";
+}
+table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid gray;
+
+}
+thead,tfoot{
+    font-family: "rock salt";
+}
+th,td{
+    letter-spacing: 2px;
+    padding:3px;
+    text-align: center;
+}
+thead{
+    border: 1px solid black;
+}
+.band{
+    font-family: "rock salt";
+    border: 1px solid lightgrey;
+}
+.albums{
+    border: 1px solid lightblue;
+}
+.year{
+    border: 1px solid lightsalmon;
+    
+}
+.song{
+    border:1px solid lightcoral;
+}
+tfoot{
+    border:2px solid green;
+}
